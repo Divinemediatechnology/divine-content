@@ -97,7 +97,7 @@ export const Followers: React.FC = () => {
 
       {/* counters */}
       <div style={{ position: "absolute", top: 292, left: 78, fontFamily: SERIF, fontStyle: "italic", fontSize: 40, color: C.ink, opacity: labelsIn * countOut }}>
-        {followers.toLocaleString("en-US")} followers · <span style={{ opacity: topCount }}>0 sales</span>
+        {followers.toLocaleString("en-US")} followers<span style={{ opacity: topCount }}> · 0 sales</span>
       </div>
       <div style={{ position: "absolute", top: 762, left: 78, fontFamily: SERIF, fontStyle: "italic", fontSize: 40, color: C.ink, opacity: labelsIn * countOut }}>
         5 followers · {sales} {sales === 1 ? "sale" : "sales"}

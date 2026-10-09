@@ -1,12 +1,30 @@
 // Shared hand-drawn "paper & ink" kit for Divine Media explainer posts.
 import React from "react";
-import { AbsoluteFill, useCurrentFrame } from "remotion";
-import { loadFont as loadNewsreader } from "@remotion/google-fonts/Newsreader";
+import { AbsoluteFill, continueRender, delayRender, staticFile, useCurrentFrame } from "remotion";
 
-const { fontFamily: newsreader } = loadNewsreader("normal", { weights: ["400", "500"], subsets: ["latin"] });
-loadNewsreader("italic", { weights: ["400"], subsets: ["latin"] });
+// Fonts are bundled in public/fonts so rendering never needs the network (cloud/sandbox safe).
+const FONT_FAMILY = "Newsreader";
+const FONT_FILES: { file: string; weight: string; style: string }[] = [
+  { file: "fonts/Newsreader-normal-400.ttf", weight: "400", style: "normal" },
+  { file: "fonts/Newsreader-normal-500.ttf", weight: "500", style: "normal" },
+  { file: "fonts/Newsreader-italic-400.ttf", weight: "400", style: "italic" },
+];
+if (typeof document !== "undefined") {
+  const handle = delayRender("Loading Newsreader fonts");
+  Promise.all(
+    FONT_FILES.map(async (f) => {
+      const face = new FontFace(FONT_FAMILY, `url(${staticFile(f.file)})`, { weight: f.weight, style: f.style });
+      await face.load();
+      document.fonts.add(face);
+    }),
+  )
+    .then(() => continueRender(handle))
+    .catch((err) => {
+      throw err;
+    });
+}
 
-export const SERIF = newsreader;
+export const SERIF = `${FONT_FAMILY}, Georgia, serif`;
 export const C = {
   paper: "#F2ECDF",
   ink: "#2A2622",
