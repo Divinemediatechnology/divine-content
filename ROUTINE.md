@@ -19,8 +19,9 @@ Do these steps in order. If any step fails, **do not schedule anything**. Append
 5. **Render:** `npx remotion render <Id> media/<YYYY-MM-DD>-<slug>.mp4 --codec=h264 --crf=20`, where
    the date is the posting date (tomorrow). The file must stay under 15 MB.
 6. **Captions:** write `content/<YYYY-MM-DD>-<slug>-captions.md` with two captions:
-   - **LinkedIn**, in Shahbaaz Khan's personal voice: a hook line, a short insight, a question at
-     the end, and up to 6 hashtags including #DivineMediaTechnology.
+   - **LinkedIn**, in Shahbaaz Khan's personal voice. **Read and follow
+     `.claude/skills/linkedin-founder-voice/SKILL.md`** (founder tone, strong hook, no invented
+     stories or numbers, one closing question, up to 6 hashtags including #DivineMediaTechnology).
    - **Instagram**: short, a few emoji, a save/share call to action, and **at most 5 hashtags**.
 7. **Commit and push** to `main`. Then get the commit SHA with `git rev-parse HEAD`. The public
    media URL is the jsDelivr one, because it serves `video/mp4` (raw.githubusercontent serves
