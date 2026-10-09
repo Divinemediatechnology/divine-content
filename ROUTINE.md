@@ -22,13 +22,16 @@ Do these steps in order. If any step fails, **do not schedule anything**. Append
    - **LinkedIn**, in Shahbaaz Khan's personal voice: a hook line, a short insight, a question at
      the end, and up to 6 hashtags including #DivineMediaTechnology.
    - **Instagram**: short, a few emoji, a save/share call to action, and **at most 5 hashtags**.
-7. **Commit and push** to `main`, so that this URL is live:
-   `https://raw.githubusercontent.com/Divinemediatechnology/divine-content/main/media/<file>.mp4`
+7. **Commit and push** to `main`. Then get the commit SHA with `git rev-parse HEAD`. The public
+   media URL is the jsDelivr one, because it serves `video/mp4` (raw.githubusercontent serves
+   octet-stream):
+   `https://cdn.jsdelivr.net/gh/Divinemediatechnology/divine-content@<SHA>/media/<file>.mp4`
+   Before you use it, check that `curl -sI` on that URL returns `200` and `Content-Type: video/mp4`.
 8. **Schedule in Buffer** with the Buffer connector, organization `6ac87f239dfe8b20030d74c2`:
    - LinkedIn **profile** Shahbaaz Khan, channel `6ac885146a5c39ccb65d971c`, with the LinkedIn caption.
    - Instagram `divine_media__`, channel `6ac882e66a5c39ccb65d5eb7`, as a **Reel**, with the
      Instagram caption.
-   - Use the video asset from the raw URL above. `dueAt` is tomorrow at 09:00 Asia/Kolkata
+   - Use the video asset from the jsDelivr URL above. `dueAt` is tomorrow at 09:00 Asia/Kolkata
      (03:30 UTC). Use custom scheduling, never share-now.
    - **Never** post to the LinkedIn page `6ac885146a5c39ccb65d971d`.
    - Afterwards, use `list_posts` to confirm both posts are `scheduled` with no error.
