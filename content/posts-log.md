@@ -4,6 +4,7 @@
 |---|---|---|---|---|
 | 2026-10-09 | consistency | Consistency beats intensity | One big bucket pour (plant wilts) vs a little water daily for 30 days (plant flowers) | 6ac891435f5f324895ad0b7f / 6ac891435f5f324895ad0b7e |
 | 2026-10-10 | followers | Followers aren't customers | Huge crowd glued to phones + empty coin jar vs 5 people who each drop a coin in the jar | 6ac8bc4f0949e66c891a4825 / 6ac8bc500949e66c891a488a |
+| 2026-10-11 | boosting | Boosting a post isn't a strategy | Blindfolded archer scattering arrows (coins spent each shot) vs one clear target and a bullseye | 6aca794eed92ed8fa5d8aebd / 6aca794fb07d37ac977f5b31 |
 
 ## Failures
 
