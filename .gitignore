@@ -9,3 +9,5 @@ out
 # render scratch
 *.png
 !public/**/*.png
+__pycache__
+*.pyc
