@@ -38,3 +38,19 @@ Do these steps in order. If any step fails, **do not schedule anything**. Append
    - Afterwards, use `list_posts` to confirm both posts are `scheduled` with no error.
 9. **Log it:** add a row to `content/posts-log.md` with the date, slug, topic, metaphor, and both
    Buffer post IDs. Then commit and push.
+
+## Second daily post: LinkedIn text post at 19:00 IST (added 2026-10-12)
+
+Every night, after the video steps above, also schedule one **text-only** post for tomorrow:
+
+- Channel: LinkedIn **profile** Shahbaaz Khan `6ac885146a5c39ccb65d971c` only (never the page
+  `...971d`). No assets. `customScheduled`, `schedulingType: automatic`, `dueAt` tomorrow
+  `19:00:00+05:30` (evening, a busy LinkedIn window for Indian business audiences).
+- Pick a topic from `content/text-posts/topic-bank.md` not in `content/text-posts/log.md`. Use
+  `content/text-posts/real-stories.md` for any specific story; otherwise only general observations.
+  **Never invent clients, numbers or results.**
+- Write it with the `linkedin-founder-voice` skill (hook, tension, insight, one action, one closing
+  question, up to 6 hashtags incl. #DivineMediaTechnology). Save as `content/text-posts/<date>.md`.
+- Before scheduling, `list_posts` for that date/time on the profile; skip if one exists. After, confirm
+  `scheduled` with no error, add a row to `content/text-posts/log.md`, commit and push.
+- A failure here must not block the video post; log it under Failures.
