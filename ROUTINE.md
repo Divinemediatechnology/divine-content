@@ -54,3 +54,6 @@ Every night, after the video steps above, also schedule one **text-only** post f
 - Before scheduling, `list_posts` for that date/time on the profile; skip if one exists. After, confirm
   `scheduled` with no error, add a row to `content/text-posts/log.md`, commit and push.
 - A failure here must not block the video post; log it under Failures.
+
+**Language rule (set by the owner, 2026-10-12):** every caption and text post is written in plain
+English. No Hindi or Hinglish.
