@@ -7,6 +7,7 @@
 | 2026-10-11 | boosting | Boosting a post isn't a strategy | Blindfolded archer scattering arrows (coins spent each shot) vs one clear target and a bullseye | 6aca794eed92ed8fa5d8aebd / 6aca794fb07d37ac977f5b31 |
 | 2026-10-12 | shop-door | Your website is your shop door | Stuck, slow-loading door (visitor knocks, shrugs, leaves) vs open lit door (visitors walk in, coins appear) | 6acbc9c1fa026cfb810d37c3 / 6acbc9c18e8dd50ffc4e7172 |
 | 2026-10-13 | talk-to-one | Talk to one person, not everyone | Megaphone shouter ignored by a crowd glued to phones (0 replies) vs two figures in one conversation, handshake, coin in jar (1 sale) | 6acd1b92eacec460f4eba95a / 6acd1b93eacec460f4eba996 |
+| 2026-10-14 | reply-fast | Reply fast, keep the lead | Slow reply: customer's message unanswered while clock spins, customer gives up (lead lost) vs instant reply, customer cheers, coin in jar (1 sale) | 6ace6cbebc13a192515ab479 / 6ace6cbf7f833fd8d30d959f |
 
 ## Failures
 
