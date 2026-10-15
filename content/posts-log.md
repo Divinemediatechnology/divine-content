@@ -9,6 +9,7 @@
 | 2026-10-13 | talk-to-one | Talk to one person, not everyone | Megaphone shouter ignored by a crowd glued to phones (0 replies) vs two figures in one conversation, handshake, coin in jar (1 sale) | 6acd1b92eacec460f4eba95a / 6acd1b93eacec460f4eba996 |
 | 2026-10-14 | reply-fast | Reply fast, keep the lead | Slow reply: customer's message unanswered while clock spins, customer gives up (lead lost) vs instant reply, customer cheers, coin in jar (1 sale) | 6ace6cbebc13a192515ab479 / 6ace6cbf7f833fd8d30d959f |
 | 2026-10-15 | hooks | Hooks matter: win the first 3 seconds | Two fishing lines in one lake: bare hook gets 0 bites, baited hook gets a bite within a second (timer) | 6acfcf73199c0449d73a4d88 / 6acfcf7a310d18fe579410b8 |
+| 2026-10-16 | two-platforms | Don't chase every platform | Juggler with 8 balls drops them all vs juggler with 2 balls keeps them smoothly in the air | 6ad10fab735e2ae5e7e17fd7 / 6ad10fab735e2ae5e7e1800a |
 
 ## Failures
 
