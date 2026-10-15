@@ -5,6 +5,7 @@ import { ShopDoor, SHOPDOOR_FRAMES } from "./posts/ShopDoor";
 import { TalkToOne, TALKTOONE_FRAMES } from "./posts/TalkToOne";
 import { ReplyFast, REPLYFAST_FRAMES } from "./posts/ReplyFast";
 import { Hooks, HOOKS_FRAMES } from "./posts/Hooks";
+import { TwoPlatforms, TWOPLATFORMS_FRAMES } from "./posts/TwoPlatforms";
 import { Followers, FOLLOWERS_FRAMES } from "./posts/Followers";
 
 // All posts: 1080x1350 (4:5, works on LinkedIn + Instagram feed), always 60fps.
@@ -18,6 +19,7 @@ export const RemotionRoot: React.FC = () => {
       <Composition id="TalkToOne" component={TalkToOne} durationInFrames={TALKTOONE_FRAMES} fps={60} width={1080} height={1350} />
       <Composition id="ReplyFast" component={ReplyFast} durationInFrames={REPLYFAST_FRAMES} fps={60} width={1080} height={1350} />
       <Composition id="Hooks" component={Hooks} durationInFrames={HOOKS_FRAMES} fps={60} width={1080} height={1350} />
+      <Composition id="TwoPlatforms" component={TwoPlatforms} durationInFrames={TWOPLATFORMS_FRAMES} fps={60} width={1080} height={1350} />
     </>
   );
 };
