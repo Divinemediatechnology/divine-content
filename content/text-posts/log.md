@@ -7,3 +7,4 @@
 | 2026-10-14 | 19:00 | Posting daily without a goal | 6ace6cbf7f833fd8d30d95d1 |
 | 2026-10-15 | 19:00 | Your Google Business Profile is free and ignored | 6acfcf7cedcab17b81283d84 |
 | 2026-10-16 | 19:00 | Slow replies lose leads | 6ad10facf2a8163cf08320b4 |
+| 2026-10-17 | 19:00 | Why the first brief matters more than the first draft | 6ad261d2238ad5651ea88fce |
