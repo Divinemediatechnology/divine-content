@@ -11,6 +11,7 @@
 | 2026-10-15 | hooks | Hooks matter: win the first 3 seconds | Two fishing lines in one lake: bare hook gets 0 bites, baited hook gets a bite within a second (timer) | 6acfcf73199c0449d73a4d88 / 6acfcf7a310d18fe579410b8 |
 | 2026-10-16 | two-platforms | Don't chase every platform | Juggler with 8 balls drops them all vs juggler with 2 balls keeps them smoothly in the air | 6ad10fab735e2ae5e7e17fd7 / 6ad10fab735e2ae5e7e1800a |
 | 2026-10-17 | promise-kept | A brand is a promise kept | Stall sign says "Cake": customer gets a crumb and shrugs away vs gets a real cake, cheers, coin in jar and brings friends | 6ad26248b54530c2c99b86f3 / 6ad2624eb54530c2c99b875f |
+| 2026-10-18 | reviews | Reviews are word of mouth at scale | One whisper reaches one friend (1 coin) vs five stars pop up and a whole queue forms (5 coins) | 6ad3b2a0ae173d6e00c93cf9 / 6ad3b2a10b0d72757aea770b |
 
 ## Failures
 
