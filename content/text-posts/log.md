@@ -9,3 +9,4 @@
 | 2026-10-16 | 19:00 | Slow replies lose leads | 6ad10facf2a8163cf08320b4 |
 | 2026-10-17 | 19:00 | Why the first brief matters more than the first draft | 6ad261d2238ad5651ea88fce |
 | 2026-10-18 | 19:00 | Scope creep: how to say no politely | 6ad3b2a2ae173d6e00c93d45 |
+| 2026-10-19 | 19:00 | Rebrand when sales are slow = wrong fix | 6ad5048f0b0d72757a31ddbf |
