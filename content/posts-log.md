@@ -13,6 +13,7 @@
 | 2026-10-17 | promise-kept | A brand is a promise kept | Stall sign says "Cake": customer gets a crumb and shrugs away vs gets a real cake, cheers, coin in jar and brings friends | 6ad26248b54530c2c99b86f3 / 6ad2624eb54530c2c99b875f |
 | 2026-10-18 | reviews | Reviews are word of mouth at scale | One whisper reaches one friend (1 coin) vs five stars pop up and a whole queue forms (5 coins) | 6ad3b2a0ae173d6e00c93cf9 / 6ad3b2a10b0d72757aea770b |
 | 2026-10-19 | retargeting | Retargeting is a friendly wave | Visitor looks at the shop and walks away, owner scratches head (forgotten) vs owner waves "Forgot something?", visitor walks back, coin in jar | 6ad50488938409f1d0decd5d / 6ad504890b0d72757a31dd14 |
+| 2026-10-20 | one-button | Too many choices kills conversion | Board of 40 buttons freezes the visitor ("? ? ?") vs one clear "Book now" button gets a click, coin in jar | 6ad6561000e70b77e05cbfde / 6ad6561cdc9c9ebcd55e4422 |
 
 ## Failures
 
@@ -20,3 +21,4 @@
 - 2026-10-14 (run for the 2026-10-15 post, topic "Hooks matter", `media/2026-10-15-hooks.mp4`, commit d44f089): video rendered and pushed, but Buffer `create_post` rejected the jsDelivr URL (`.../divine-content@d44f089c2697cce467961ba62baa43726430b2b7/media/2026-10-15-hooks.mp4`) three times with "Video could not be read from its URL" (HTTP 400). The sandbox cannot check the URL itself (jsDelivr returns 403 from the proxy). Nothing was scheduled on LinkedIn, Instagram or the 19:00 text post (`content/text-posts/2026-10-15.md` is written but unscheduled). Fix: confirm the jsDelivr URL serves video/mp4, then schedule the saved captions for 2026-10-15 09:00 IST and the text post for 19:00 IST.
   - Resolved 2026-10-14: the same jsDelivr URL was accepted by Buffer on a retry a few minutes later (the CDN was slow to serve the new commit). Both posts and the text post are now scheduled.
   - 2026-10-16 (run for the 2026-10-17 post): the first `create_post` attempt also got "Video could not be read from its URL" for commit c31f792; it was accepted ~2 minutes later on retry. Same pattern as 2026-10-14: a brand-new commit takes a couple of minutes to be served by jsDelivr.
+  - 2026-10-19 (run for the 2026-10-20 post, commit 5a62de5): first `create_post` attempts got "Video could not be read from its URL"; accepted on retry about a minute later. Same jsDelivr lag as before. Note: `npx remotion` needs `--browser-executable=/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell` and sfx needs `/usr/bin/python3` (has numpy).
