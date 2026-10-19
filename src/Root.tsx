@@ -9,6 +9,7 @@ import { TwoPlatforms, TWOPLATFORMS_FRAMES } from "./posts/TwoPlatforms";
 import { PromiseKept, PROMISEKEPT_FRAMES } from "./posts/PromiseKept";
 import { Reviews, REVIEWS_FRAMES } from "./posts/Reviews";
 import { Retargeting, RETARGETING_FRAMES } from "./posts/Retargeting";
+import { OneButton, ONEBUTTON_FRAMES } from "./posts/OneButton";
 import { Followers, FOLLOWERS_FRAMES } from "./posts/Followers";
 
 // All posts: 1080x1350 (4:5, works on LinkedIn + Instagram feed), always 60fps.
@@ -26,6 +27,7 @@ export const RemotionRoot: React.FC = () => {
       <Composition id="PromiseKept" component={PromiseKept} durationInFrames={PROMISEKEPT_FRAMES} fps={60} width={1080} height={1350} />
       <Composition id="Reviews" component={Reviews} durationInFrames={REVIEWS_FRAMES} fps={60} width={1080} height={1350} />
       <Composition id="Retargeting" component={Retargeting} durationInFrames={RETARGETING_FRAMES} fps={60} width={1080} height={1350} />
+      <Composition id="OneButton" component={OneButton} durationInFrames={ONEBUTTON_FRAMES} fps={60} width={1080} height={1350} />
     </>
   );
 };
