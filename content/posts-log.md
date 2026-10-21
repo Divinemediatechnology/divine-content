@@ -14,6 +14,7 @@
 | 2026-10-18 | reviews | Reviews are word of mouth at scale | One whisper reaches one friend (1 coin) vs five stars pop up and a whole queue forms (5 coins) | 6ad3b2a0ae173d6e00c93cf9 / 6ad3b2a10b0d72757aea770b |
 | 2026-10-19 | retargeting | Retargeting is a friendly wave | Visitor looks at the shop and walks away, owner scratches head (forgotten) vs owner waves "Forgot something?", visitor walks back, coin in jar | 6ad50488938409f1d0decd5d / 6ad504890b0d72757a31dd14 |
 | 2026-10-20 | one-button | Too many choices kills conversion | Board of 40 buttons freezes the visitor ("? ? ?") vs one clear "Book now" button gets a click, coin in jar | 6ad6561000e70b77e05cbfde / 6ad6561cdc9c9ebcd55e4422 |
+| 2026-10-22 | short-form | Long forms scare leads (fewer fields, more leads) | Seven-step staircase of form fields: visitor climbs 4 steps, sighs "Still more?" and walks away vs one "Email" step, "Sent!", coin in jar | 6ad8f8fb5f06a50228137aa9 / 6ad8f8fc4c68046f77a91edc |
 
 ## Failures
 
