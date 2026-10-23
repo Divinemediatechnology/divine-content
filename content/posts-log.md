@@ -15,6 +15,7 @@
 | 2026-10-19 | retargeting | Retargeting is a friendly wave | Visitor looks at the shop and walks away, owner scratches head (forgotten) vs owner waves "Forgot something?", visitor walks back, coin in jar | 6ad50488938409f1d0decd5d / 6ad504890b0d72757a31dd14 |
 | 2026-10-20 | one-button | Too many choices kills conversion | Board of 40 buttons freezes the visitor ("? ? ?") vs one clear "Book now" button gets a click, coin in jar | 6ad6561000e70b77e05cbfde / 6ad6561cdc9c9ebcd55e4422 |
 | 2026-10-22 | short-form | Long forms scare leads (fewer fields, more leads) | Seven-step staircase of form fields: visitor climbs 4 steps, sighs "Still more?" and walks away vs one "Email" step, "Sent!", coin in jar | 6ad8f8fb5f06a50228137aa9 / 6ad8f8fc4c68046f77a91edc |
+| 2026-10-24 | rent-or-plant | SEO plants, ads rent | Coin-fed lamp goes dark when coins run out (ads) vs a planted tree that keeps growing and drops coins in the jar (SEO), month counter 1-12 | 6adb9bb5e4be8a4d861aef7a / 6adb9bb8e4be8a4d861af21a |
 
 ## Failures
 
