@@ -12,3 +12,4 @@
 | 2026-10-19 | 19:00 | Rebrand when sales are slow = wrong fix | 6ad5048f0b0d72757a31ddbf |
 | 2026-10-20 | 19:00 | Discounting trains customers to wait | 6ad6562c00e70b77e05cc5e0 |
 | 2026-10-22 | 19:00 | Reels vs static: test, don't guess | 6ad8f9004c68046f77a91faf |
+| 2026-10-24 | 19:00 | What to ask before hiring any marketer | PENDING |
