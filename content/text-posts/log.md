@@ -13,3 +13,4 @@
 | 2026-10-20 | 19:00 | Discounting trains customers to wait | 6ad6562c00e70b77e05cc5e0 |
 | 2026-10-22 | 19:00 | Reels vs static: test, don't guess | 6ad8f9004c68046f77a91faf |
 | 2026-10-24 | 19:00 | What to ask before hiring any marketer | 6adb9bbbbd33ce99c3e282b9 |
+| 2026-10-25 | 19:00 | Collecting reviews: ask at the happy moment | 6adcedc4e4be8a4d866f4232 |
