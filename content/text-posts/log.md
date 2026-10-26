@@ -15,4 +15,4 @@
 | 2026-10-24 | 19:00 | What to ask before hiring any marketer | 6adb9bbbbd33ce99c3e282b9 |
 | 2026-10-25 | 19:00 | Collecting reviews: ask at the happy moment | 6adcedc4e4be8a4d866f4232 |
 | 2026-10-26 | 19:00 | Why "go viral" is not a plan | 6ade3e816887a2efc1184a1f |
-| 2026-10-27 | 19:00 | Fixing the website before running ads | PENDING |
+| 2026-10-27 | 19:00 | Fixing the website before running ads | 6adf90f679c317817c023163 |
