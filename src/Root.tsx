@@ -14,6 +14,7 @@ import { ShortForm, SHORTFORM_FRAMES } from "./posts/ShortForm";
 import { RentOrPlant, RENTORPLANT_FRAMES } from "./posts/RentOrPlant";
 import { ShowResults, SHOWRESULTS_FRAMES } from "./posts/ShowResults";
 import { Testimonials, TESTIMONIALS_FRAMES } from "./posts/Testimonials";
+import { OwnedAudience, OWNEDAUDIENCE_FRAMES } from "./posts/OwnedAudience";
 import { Followers, FOLLOWERS_FRAMES } from "./posts/Followers";
 
 // All posts: 1080x1350 (4:5, works on LinkedIn + Instagram feed), always 60fps.
@@ -36,6 +37,7 @@ export const RemotionRoot: React.FC = () => {
       <Composition id="RentOrPlant" component={RentOrPlant} durationInFrames={RENTORPLANT_FRAMES} fps={60} width={1080} height={1350} />
       <Composition id="ShowResults" component={ShowResults} durationInFrames={SHOWRESULTS_FRAMES} fps={60} width={1080} height={1350} />
       <Composition id="Testimonials" component={Testimonials} durationInFrames={TESTIMONIALS_FRAMES} fps={60} width={1080} height={1350} />
+      <Composition id="OwnedAudience" component={OwnedAudience} durationInFrames={OWNEDAUDIENCE_FRAMES} fps={60} width={1080} height={1350} />
     </>
   );
 };
