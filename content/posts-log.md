@@ -20,6 +20,7 @@
 | 2026-10-26 | testimonials | Testimonials over self-praise | Figure shouts "I'm great!" and the customer smirks and walks off vs three friends say "Brilliant! / So good! / Loved it!", customer says "I'll book them!", coin in jar | 6ade3e770b5343d070e37489 / 6ade3e798b3d437ddc1c721b |
 | 2026-10-27 | owned-audience | Email list = owned audience | Figure on a rented plank stage that gives way, crowd drifts off, 'stage gone…' vs figure emailing a house with a lit window, coins land in the jar | 6adf90f20f72382ba97bfbe9 / 6adf90ef7099fd3e032974c7 |
 | 2026-10-28 | lead-quality | Quality leads beat quantity | Bucket of rocks (200 leads, 0 sales, "Just rocks...") vs small bowl of gold coins (5 leads) that all hop into the jar (5 sales) | 6ae0e2a551c7284440e955b7 / 6ae0e2a7500f0a489fe9208a |
+| 2026-10-29 | know-numbers | Know your numbers | Blindfolded figure walks into a pothole ('Didn't see that...') vs figure reads a dashboard gauge, hops the pothole, coin in jar | 6ae233ce4f060961b74576f9 / 6ae233d04f060961b745779b |
 
 ## Failures
 
