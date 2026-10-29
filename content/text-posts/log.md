@@ -18,4 +18,4 @@
 | 2026-10-27 | 19:00 | Fixing the website before running ads | 6adf90f679c317817c023163 |
 | 2026-10-28 | 19:00 | Saying "I don't know" to a client | 6ae0e2aca5a0a93afe9916c0 |
 | 2026-10-29 | 19:00 | A monthly report should end in a decision | 6ae233da992232523c33dd81 |
-| 2026-10-30 | 19:00 | If you cannot explain your offer in one sentence, they will not either | PENDING |
+| 2026-10-30 | 19:00 | If you cannot explain your offer in one sentence, they will not either | 6ae384cc313060a14e1f38ff |
