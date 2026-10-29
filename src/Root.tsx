@@ -17,6 +17,7 @@ import { Testimonials, TESTIMONIALS_FRAMES } from "./posts/Testimonials";
 import { OwnedAudience, OWNEDAUDIENCE_FRAMES } from "./posts/OwnedAudience";
 import { LeadQuality, LEADQUALITY_FRAMES } from "./posts/LeadQuality";
 import { KnowNumbers, KNOWNUMBERS_FRAMES } from "./posts/KnowNumbers";
+import { MotionStops, MOTIONSTOPS_FRAMES } from "./posts/MotionStops";
 import { Followers, FOLLOWERS_FRAMES } from "./posts/Followers";
 
 // All posts: 1080x1350 (4:5, works on LinkedIn + Instagram feed), always 60fps.
@@ -42,6 +43,7 @@ export const RemotionRoot: React.FC = () => {
       <Composition id="OwnedAudience" component={OwnedAudience} durationInFrames={OWNEDAUDIENCE_FRAMES} fps={60} width={1080} height={1350} />
       <Composition id="LeadQuality" component={LeadQuality} durationInFrames={LEADQUALITY_FRAMES} fps={60} width={1080} height={1350} />
       <Composition id="KnowNumbers" component={KnowNumbers} durationInFrames={KNOWNUMBERS_FRAMES} fps={60} width={1080} height={1350} />
+      <Composition id="MotionStops" component={MotionStops} durationInFrames={MOTIONSTOPS_FRAMES} fps={60} width={1080} height={1350} />
     </>
   );
 };
