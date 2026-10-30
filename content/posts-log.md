@@ -22,6 +22,7 @@
 | 2026-10-28 | lead-quality | Quality leads beat quantity | Bucket of rocks (200 leads, 0 sales, "Just rocks...") vs small bowl of gold coins (5 leads) that all hop into the jar (5 sales) | 6ae0e2a551c7284440e955b7 / 6ae0e2a7500f0a489fe9208a |
 | 2026-10-29 | know-numbers | Know your numbers | Blindfolded figure walks into a pothole ('Didn't see that...') vs figure reads a dashboard gauge, hops the pothole, coin in jar | 6ae233ce4f060961b74576f9 / 6ae233d04f060961b745779b |
 | 2026-10-30 | motion-stops | Video beats text in the feed | Static 'SALE' sign: three walkers stroll past ('Meh.') vs a sign with a bouncing ball: all three stop ('Wait, what?'), coin in jar | 6ae384cab3aaeefe231ee5dc / 6ae384cbb3aaeefe231ee61d |
+| 2026-10-31 | reply-in-five | What if you replied in five minutes? (Stickman) | Customer messages two shops; one replies in five minutes, one next morning; she has already paid the first | 6ae4d5f5a351214acf9dfc38 / 6ae4d5f610a950f137362c1c / 6ae4d5f8cd8290b9b90318a8 |
 
 ## Failures
 
