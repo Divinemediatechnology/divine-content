@@ -1,24 +1,18 @@
-# Divine Media Technology — daily explainer posts
+# Divine Media Technology — explainer posts
 
-Remotion project that makes one short, hand-drawn stick-figure explainer video per day for
-**Divine Media Technology** (digital marketing agency), posted via Buffer.
+Makes short stick-figure explainer videos for **Divine Media Technology** (digital marketing agency),
+posted via Buffer on alternate days, plus a daily LinkedIn text post.
 
-## Hard rules
-- Render at **60 fps**, 1080×1350 (4:5). Every composition: `fps={60}`.
-- Palette is fixed: cream paper background, black ink stick figures. Accents only `C.red` (punchline
-  underline / one highlight) and the muted blues for water/objects. Use `src/kit/kit.tsx` (Paper,
-  InkDefs, Stick, Ground, BrandFooter, SERIF, C).
-- **No voice-over, no music.** Sound effects only, generated procedurally with `sfx/sfxlib.py`.
-- Branding = only the tiny `<BrandFooter />` (IG/FB/LinkedIn icons + "Divine Media Technology").
-  Never a big logo or watermark.
-- Text and story must be **original**. Do not copy other creators' scenes or lines.
-- Length 8–14 s. One idea, one visual metaphor, one punchline (red underline draws in at the end).
-
-## Post structure that works
-Title question/statement at top → split-screen "wrong way vs right way" (or one scene with a twist)
-→ labels under each panel → title swaps to the punchline → red underline → footer.
-Reference: `src/posts/Consistency.tsx` + `sfx/consistency.py`.
+## Video format (since 2026-10-31): Stickman "What if…?"
+- Engine in `stickman/` (from the faceless-videos skill, Stickman style): black stick figures with an
+  orange hoodie in flat illustrated rooms, faces that act, one picture per clause, gold cards,
+  AI narration (Kokoro `am_michael`), soft music and sound. **24 fps** (the style's own rate, do not
+  convert to 60), 1080x1920 (9:16), ~30–40 s, under 15 MB.
+- Reference: `stickman/posts/2026-10-30-stop-posting/`. Shared pieces: `stickman/engine/src/sets/kit.js`.
+- Story and text must be **original**; no invented statistics, clients or results. Plain English.
+- Every video ends with `endCard()` (the Divine Media Technology pill).
+- The old Remotion format (`src/`, `sfx/`, 60 fps cream paper) is retired; keep it for reference only.
 
 ## Daily routine (see ROUTINE.md for the exact steps)
-Topics come from `content/topic-bank.md`; everything already posted is in `content/posts-log.md`.
+Video topics come from `content/stickman-topic-bank.md`; everything already posted is in `content/posts-log.md`.
 Never repeat a topic or metaphor that is in the log.

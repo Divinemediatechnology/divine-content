@@ -1,43 +1,57 @@
-# Daily routine: make tomorrow's post and schedule it for 09:00 IST
+# Nightly routine: tomorrow's posts (video on alternate days, text post every day)
 
-Do these steps in order. If any step fails, **do not schedule anything**. Append the failure to
-`content/posts-log.md` under "Failures", then commit and push.
+## 0 · Is tomorrow a video day?
+```bash
+D=$(TZ=Asia/Kolkata date -d tomorrow +%F); echo $D; echo $(( $(date -ud "$D" +%s) / 86400 % 2 ))
+```
+`1` = **video day** (31 Oct, 2 Nov, 4 Nov …) → do steps 1–9. `0` = no video tomorrow → skip to the text post section.
+If any video step fails, **do not schedule the video**. Append the failure to `content/posts-log.md`
+under "Failures" (date + reason), commit and push, still do the text post, and **start your final
+summary with the line `VIDEO FAILED: <reason>`** (the owner gets told to switch the PC on so the
+PC backup task can make it).
 
-1. **Setup:** run `npm ci`, then `pip install numpy`. ffmpeg is optional.
-2. **Pick a topic:** read `content/posts-log.md` and `content/topic-bank.md`. Choose the first unused
-   topic in the bank, or invent a new one in the same spirit: marketing, branding, ads, content,
-   websites, client growth, aimed at business owners. It must not repeat any logged topic or
-   metaphor.
-3. **Build the video:**
-   - Create `src/posts/<PascalSlug>.tsx`, modelled on `Consistency.tsx` and using only the kit.
-   - Register it in `src/Root.tsx` at fps 60, 1080×1350.
-   - Write `sfx/<slug>.py` with event times that match the component's frames at 60fps.
-   - Run `python sfx/<slug>.py public/sfx/<slug>.wav`.
-4. **Check it:** `npx tsc --noEmit` must pass. Render 5–6 stills with
-   `npx remotion still <Id> out/x.png --frame=N --scale=0.5`, look at them, and fix anything that
-   overlaps, is cut off, or is unreadable.
-5. **Render:** `npx remotion render <Id> media/<YYYY-MM-DD>-<slug>.mp4 --codec=h264 --crf=20`, where
-   the date is the posting date (tomorrow). The file must stay under 15 MB.
-6. **Captions:** write `content/<YYYY-MM-DD>-<slug>-captions.md` with two captions:
-   - **LinkedIn**, in Shahbaaz Khan's personal voice. **Read and follow
-     `.claude/skills/linkedin-founder-voice/SKILL.md`** (founder tone, strong hook, no invented
-     stories or numbers, one closing question, up to 6 hashtags including #DivineMediaTechnology).
-   - **Instagram**: short, a few emoji, a save/share call to action, and **at most 5 hashtags**.
-7. **Commit and push** to `main`. Then get the commit SHA with `git rev-parse HEAD`. The public
-   media URL is the jsDelivr one, because it serves `video/mp4` (raw.githubusercontent serves
-   octet-stream):
-   `https://cdn.jsdelivr.net/gh/Divinemediatechnology/divine-content@<SHA>/media/<file>.mp4`
-   Before you use it, check that `curl -sI` on that URL returns `200` and `Content-Type: video/mp4`.
-8. **Schedule in Buffer** with the Buffer connector, organization `6ac87f239dfe8b20030d74c2`:
-   - LinkedIn **profile** Shahbaaz Khan, channel `6ac885146a5c39ccb65d971c`, with the LinkedIn caption.
-   - Instagram `divine_media__`, channel `6ac882e66a5c39ccb65d5eb7`, as a **Reel**, with the
-     Instagram caption.
-   - Use the video asset from the jsDelivr URL above. `dueAt` is tomorrow at 09:00 Asia/Kolkata
-     (03:30 UTC). Use custom scheduling, never share-now.
-   - **Never** post to the LinkedIn page `6ac885146a5c39ccb65d971d`.
-   - Afterwards, use `list_posts` to confirm both posts are `scheduled` with no error.
-9. **Log it:** add a row to `content/posts-log.md` with the date, slug, topic, metaphor, and both
-   Buffer post IDs. Then commit and push.
+## Video (Stickman style, since 2026-10-31)
+The old Remotion cream-paper format is retired. Videos are now narrated "What if…?" stick-figure
+stories made with the engine in `stickman/` (24 fps, 1080x1920, AI voice, music, sound).
+Reference post: `stickman/posts/2026-10-30-stop-posting/` (script.txt + shots.js). Read it first.
+
+1. **Setup:** `bash stickman/setup.sh` until it prints `STICKMAN READY` (pip deps, Kokoro voice,
+   ffmpeg, Chrome; a few minutes).
+2. **Pick a topic:** the first unused one in `content/stickman-topic-bank.md` (check
+   `content/posts-log.md`), or invent one in the same spirit. Never repeat a logged topic.
+3. **Write `stickman/posts/<DATE>-<slug>/script.txt`:** second person, short sentences, 70–90 words
+   (~30 s), one line = one picture. Premise in the first 5 s, a title question, a few beats, a turn,
+   one closing line. `[beat 0.8]` = silence. A character line is `[Customer] text` (voices:
+   Customer, Client, Friend, Boss). Numbers spelled as words. Plain English. **No invented
+   statistics, clients or results.**
+4. **Write `stickman/posts/<DATE>-<slug>/shots.js`** modelled on the reference post. Use the kit:
+   `stickman/engine/src/sets/kit.js` (hero, sitting, bigHead, phoneOnCouch, shop, titleCard,
+   endCard, stepCard), `rooms.js` (living, hallway, bathroom, kitchen), `more.js` (facade, skyline,
+   phone, desk, section, stove), `gfx.js` (pill, stamp, counter, goldText, navyBg, rubber).
+   One shot per clause, keyed to words with `cut(line, word)` / `wd(line, word)`; every 9:16 `cam`
+   gets `px/pw`; labels in the top 30 %, nothing important in the bottom 20 %. Always end with
+   `endCard(...)`. Keep new drawing code small and in the same flat style.
+5. **Build:** `bash stickman/build.sh stickman/posts/<DATE>-<slug> media/<DATE>-<slug>.mp4`.
+   It must print `BUILD OK` (file < 15 MB). **Then look at** `stickman/work/<DATE>-<slug>/review/v.jpg`
+   (contact sheet, 2 frames per shot): every frame must match what is said, nothing cut off,
+   every word spelled right. Fix shots.js and rebuild until it is right (max 3 builds).
+6. **Captions:** `content/<DATE>-<slug>-captions.md` with a LinkedIn caption (follow
+   `.claude/skills/linkedin-founder-voice/SKILL.md`, up to 6 hashtags incl. #DivineMediaTechnology)
+   and an Instagram caption (short, a few emoji, save/share call to action, max 5 hashtags).
+7. **Commit and push** to `main` (post folder, media file, captions). Do not commit `stickman/work/`.
+   Media URL: `https://cdn.jsdelivr.net/gh/Divinemediatechnology/divine-content@<SHA>/media/<file>.mp4`
+   (`git rev-parse HEAD`). The sandbox cannot curl jsDelivr; if Buffer says "Video could not be
+   read from its URL", wait 2 minutes and retry (up to 3 times).
+8. **Schedule in Buffer**, organization `6ac87f239dfe8b20030d74c2`, `customScheduled`,
+   `schedulingType: automatic`, `dueAt` = `<DATE>T09:00:00+05:30`:
+   - LinkedIn **profile** Shahbaaz Khan, channel `6ac885146a5c39ccb65d971c`, LinkedIn caption.
+   - Instagram `divine_media__`, channel `6ac882e66a5c39ccb65d5eb7`, `metadata.instagram`
+     `{type: 'reel', shouldShareToFeed: true}`, Instagram caption.
+   - **Never** the LinkedIn page `6ac885146a5c39ccb65d971d`. Never share-now.
+   - First `list_posts` for that date on both channels; if a post already exists, don't duplicate.
+     Afterwards confirm both are `scheduled` with no error.
+9. **Log it:** add a row to `content/posts-log.md` (date, slug, topic, story, both Buffer IDs).
+   Commit and push.
 
 ## Second daily post: LinkedIn text post at 19:00 IST (added 2026-10-12)
 
