@@ -11,7 +11,7 @@ W="$HERE/work/$(basename "$POST")"; rm -rf "$W"; mkdir -p "$W"
 cp -r "$HERE/engine/." "$W/"; cp "$POST/script.txt" "$W/"; cp "$POST/shots.js" "$W/src/shots.js"; mkdir -p "$W/data" "$W/review" "$W/renders"
 cd "$W"
 echo "== voice";  "$PY" tools/voice.py . | tail -1
-echo "== words";  "$PY" tools/words.py . --model "${WHISPER:-base.en}" | tail -1
+echo "== words";  "$PY" tools/words.py . --model "${WHISPER:-base.en}" 2>/dev/null | tail -1 || "$PY" tools/words_est.py .   # cloud blocks huggingface.co
 echo "== check";  node tools/capture.mjs check | tee review/check.txt | tail -3
 if grep -q "SCENE ERRORS" review/check.txt; then echo "BUILD FAILED: scene errors (see $W/review/check.txt)"; exit 1; fi
 AR=9x16 node tools/capture.mjs scenes review/v.jpg all 2 0.2 | tail -1
