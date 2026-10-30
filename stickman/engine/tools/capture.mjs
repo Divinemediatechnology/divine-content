@@ -42,7 +42,7 @@ function serve() {
 // ---------- chrome worker ----------
 async function openWorker(port) {
   const prof = fs.mkdtempSync(path.join(os.tmpdir(), 'op-chrome-'));
-  const chrome = spawn(CHROME, ['--headless=new', '--remote-debugging-port=0', `--user-data-dir=${prof}`, '--no-first-run', '--no-default-browser-check',
+  const chrome = spawn(CHROME, ['--headless=new', '--remote-debugging-port=0', `--user-data-dir=${prof}`, '--no-first-run', '--no-default-browser-check', ...(process.getuid?.() === 0 ? ['--no-sandbox'] : []),
     '--hide-scrollbars', AR === '9x16' ? '--window-size=1080,1920' : '--window-size=1920,1080', '--ignore-gpu-blocklist', '--enable-gpu-rasterization', ...(process.platform === 'darwin' ? ['--use-angle=metal'] : []), '--autoplay-policy=no-user-gesture-required',
     '--disable-background-timer-throttling', '--disable-renderer-backgrounding', '--disable-backgrounding-occluded-windows', '--js-flags=--max-old-space-size=4096', 'about:blank'], { stdio: 'ignore' });
   let target, dbg;
