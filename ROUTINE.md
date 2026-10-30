@@ -37,7 +37,9 @@ Reference post: `stickman/posts/2026-10-30-stop-posting/` (script.txt + shots.js
    every word spelled right. Fix shots.js and rebuild until it is right (max 3 builds).
 6. **Captions:** `content/<DATE>-<slug>-captions.md` with a LinkedIn caption (follow
    `.claude/skills/linkedin-founder-voice/SKILL.md`, up to 6 hashtags incl. #DivineMediaTechnology)
-   and an Instagram caption (short, a few emoji, save/share call to action, max 5 hashtags).
+   and an Instagram caption (short, a few emoji, save/share call to action, max 5 hashtags), and a
+   **YouTube** title (max 70 characters, the "What if…?" question) + description (2–3 lines, a
+   subscribe line, then `#Shorts` and up to 3 more hashtags).
 7. **Commit and push** to `main` (post folder, media file, captions). Do not commit `stickman/work/`.
    Media URL: `https://cdn.jsdelivr.net/gh/Divinemediatechnology/divine-content@<SHA>/media/<file>.mp4`
    (`git rev-parse HEAD`). The sandbox cannot curl jsDelivr; if Buffer says "Video could not be
@@ -47,10 +49,14 @@ Reference post: `stickman/posts/2026-10-30-stop-posting/` (script.txt + shots.js
    - LinkedIn **profile** Shahbaaz Khan, channel `6ac885146a5c39ccb65d971c`, LinkedIn caption.
    - Instagram `divine_media__`, channel `6ac882e66a5c39ccb65d5eb7`, `metadata.instagram`
      `{type: 'reel', shouldShareToFeed: true}`, Instagram caption.
+   - YouTube **Shorts** `Divine Media Technology`, channel `6ae477d82f1f5ed6481e7084`, text = YouTube
+     description, `metadata.youtube` `{title, categoryId: '27', privacy: 'public', madeForKids: false,
+     notifySubscribers: true}` (27 = Education). The 9:16 video under 60 s becomes a Short.
    - **Never** the LinkedIn page `6ac885146a5c39ccb65d971d`. Never share-now.
-   - First `list_posts` for that date on both channels; if a post already exists, don't duplicate.
-     Afterwards confirm both are `scheduled` with no error.
-9. **Log it:** add a row to `content/posts-log.md` (date, slug, topic, story, both Buffer IDs).
+   - First `list_posts` for that date on all three channels; if a post already exists on a channel,
+     don't duplicate it there. Afterwards confirm all three are `scheduled` with no error.
+9. **Log it:** add a row to `content/posts-log.md` (date, slug, topic, story, Buffer IDs for LinkedIn /
+   Instagram / YouTube).
    Commit and push.
 
 ## Second daily post: LinkedIn text post at 19:00 IST (added 2026-10-12)
