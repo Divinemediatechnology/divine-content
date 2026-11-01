@@ -21,3 +21,4 @@
 | 2026-10-30 | 19:00 | If you cannot explain your offer in one sentence, they will not either | 6ae384cc313060a14e1f38ff |
 | 2026-10-31 | 19:00 | Your Google Business Profile is free, and most businesses ignore it | 6ae4d5f9260ad0ee5bbe151c |
 | 2026-11-01 | 19:00 | Choosing an agency on price alone | 6ae626e81ee172cd6db4ae4a |
+| 2026-11-02 | 19:00 | Follow up on quiet leads | 6ae77915142f545151f17e8b |

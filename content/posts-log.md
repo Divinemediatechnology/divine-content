@@ -23,6 +23,7 @@
 | 2026-10-29 | know-numbers | Know your numbers | Blindfolded figure walks into a pothole ('Didn't see that...') vs figure reads a dashboard gauge, hops the pothole, coin in jar | 6ae233ce4f060961b74576f9 / 6ae233d04f060961b745779b |
 | 2026-10-30 | motion-stops | Video beats text in the feed | Static 'SALE' sign: three walkers stroll past ('Meh.') vs a sign with a bouncing ball: all three stop ('Wait, what?'), coin in jar | 6ae384cab3aaeefe231ee5dc / 6ae384cbb3aaeefe231ee61d |
 | 2026-10-31 | reply-in-five | What if you replied in five minutes? (Stickman) | Customer messages two shops; one replies in five minutes, one next morning; she has already paid the first | 6ae4d5f5a351214acf9dfc38 / 6ae4d5f610a950f137362c1c / 6ae4d5f8cd8290b9b90318a8 |
+| 2026-11-02 | ten-seconds | What if your website took ten seconds to load? (Stickman) | Customer taps a link, watches a spinner for ten seconds, taps back and buys from the next shop | 6ae778fc7c4e555926699624 / 6ae77900cfdcf9feb7160bc9 / 6ae77902142f545151f17a82 |
 
 ## Failures
 
