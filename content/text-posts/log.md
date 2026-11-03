@@ -23,3 +23,4 @@
 | 2026-11-01 | 19:00 | Choosing an agency on price alone | 6ae626e81ee172cd6db4ae4a |
 | 2026-11-02 | 19:00 | Follow up on quiet leads | 6ae77915142f545151f17e8b |
 | 2026-11-03 | 19:00 | Your Instagram bio is a sales page | 6ae8cc82559f13a14d69fefb |
+| 2026-11-04 | 19:00 | Ask every new customer how they found you | 6aea1c5c544a6d4567cb0270 |
