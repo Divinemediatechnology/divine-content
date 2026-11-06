@@ -1,6 +1,8 @@
 # Nightly routine: tomorrow's posts (video on alternate days, text post every day)
 
 ## 0 · Is tomorrow a video day?
+**PAUSED since 2026-11-06 (owner): no videos at all. Treat every day as `0` (not a video day): skip the video steps, make only the text post, and say "Video paused" in the alert. A new video format is coming.**
+
 ```bash
 D=$(TZ=Asia/Kolkata date -d tomorrow +%F); echo $D; echo $(( $(date -ud "$D" +%s) / 86400 % 2 ))
 ```
