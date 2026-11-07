@@ -26,3 +26,4 @@
 | 2026-11-04 | 19:00 | Ask every new customer how they found you | 6aea1c5c544a6d4567cb0270 |
 | 2026-11-05 | 19:00 | Your homepage must answer "is this for me?" in five seconds | 6aeb6cc4491f63648cec7684 |
 | 2026-11-07 | 19:00 | Marketing needs one owner inside your business | 6aee0fdb004e4879a704c9b3 |
+| 2026-11-08 | 19:00 | Stop copying competitors' content | 6aef6151004e4879a76df889 |
