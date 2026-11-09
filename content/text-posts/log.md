@@ -28,3 +28,4 @@
 | 2026-11-07 | 19:00 | Marketing needs one owner inside your business | 6aee0fdb004e4879a704c9b3 |
 | 2026-11-08 | 19:00 | Stop copying competitors' content | 6aef6151004e4879a76df889 |
 | 2026-11-09 | 19:00 | Your easiest new customer is one you already have | 6af0b2e2562f2e6de9d12c59 |
+| 2026-11-10 | 19:00 | Say who you are not for (specific beats everyone) | 6af204517176a1c926fdc355 |
