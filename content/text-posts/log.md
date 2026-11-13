@@ -31,3 +31,4 @@
 | 2026-11-10 | 19:00 | Say who you are not for (specific beats everyone) | 6af204517176a1c926fdc355 |
 | 2026-11-11 | 19:00 | Count enquiries, not likes | 6af35725eca53e2861f65c7b |
 | 2026-11-13 | 19:00 | Ask happy customers for referrals | NOT SCHEDULED (Buffer tools unavailable) |
+| 2026-11-14 | 19:00 | Give visitors one clear next step | NOT SCHEDULED (Buffer tools unavailable) |
