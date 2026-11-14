@@ -32,3 +32,4 @@
 | 2026-11-11 | 19:00 | Count enquiries, not likes | 6af35725eca53e2861f65c7b |
 | 2026-11-13 | 19:00 | Ask happy customers for referrals | NOT SCHEDULED (Buffer tools unavailable) |
 | 2026-11-14 | 19:00 | Give visitors one clear next step | NOT SCHEDULED (Buffer tools unavailable) |
+| 2026-11-15 | 19:00 | A busy week is not a productive week: pick one number | NOT SCHEDULED (Buffer tools unavailable) |
