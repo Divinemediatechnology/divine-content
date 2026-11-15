@@ -42,3 +42,4 @@
 - 2026-11-12 (run for 2026-11-13): video paused. Buffer MCP tools were not available in the session, so the 19:00 text post (`content/text-posts/2026-11-13.md`) is written but NOT scheduled. Schedule it manually or via backup task.
 - 2026-11-14: Text post written but NOT scheduled; Buffer MCP tools were not available in the session (ToolSearch returned none). Video paused, so no video failure.
 - 2026-11-15: text post written but NOT scheduled; Buffer, n8n and Telegram connectors unavailable in the run (video paused).
+- 2026-11-16: text post written but NOT scheduled; Buffer, n8n and Telegram connectors unavailable in the run (video paused).
