@@ -34,3 +34,4 @@
 | 2026-11-14 | 19:00 | Give visitors one clear next step | NOT SCHEDULED (Buffer tools unavailable) |
 | 2026-11-15 | 19:00 | A busy week is not a productive week: pick one number | NOT SCHEDULED (Buffer tools unavailable) |
 | 2026-11-16 | 19:00 | Show a price range, it filters enquiries | NOT SCHEDULED (Buffer tools unavailable) |
+| 2026-11-17 | 19:00 | Slow replies lose leads | NOT SCHEDULED (Buffer tools unavailable) |
