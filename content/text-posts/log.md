@@ -36,3 +36,4 @@
 | 2026-11-16 | 19:00 | Show a price range, it filters enquiries | NOT SCHEDULED (Buffer tools unavailable) |
 | 2026-11-17 | 19:00 | Slow replies lose leads | NOT SCHEDULED (Buffer tools unavailable) |
 | 2026-11-18 | 19:00 | Marketing needs a boring weekly routine | NOT SCHEDULED (Buffer post tools unavailable) |
+| 2026-11-19 | 19:00 | Reply to bad reviews for future readers | NOT SCHEDULED (Buffer post tools unavailable) |
