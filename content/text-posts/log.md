@@ -38,3 +38,4 @@
 | 2026-11-18 | 19:00 | Marketing needs a boring weekly routine | NOT SCHEDULED (Buffer post tools unavailable) |
 | 2026-11-19 | 19:00 | Reply to bad reviews for future readers | NOT SCHEDULED (Buffer post tools unavailable) |
 | 2026-11-20 | 19:00 | A price needs a picture of what the customer gets | NOT SCHEDULED (Buffer post tools unavailable) |
+| 2026-11-21 | 19:00 | Write down what a lead is before you count leads | NOT SCHEDULED (Buffer post tools unavailable) |
