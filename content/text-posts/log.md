@@ -40,3 +40,4 @@
 | 2026-11-20 | 19:00 | A price needs a picture of what the customer gets | NOT SCHEDULED (Buffer post tools unavailable) |
 | 2026-11-21 | 19:00 | Write down what a lead is before you count leads | NOT SCHEDULED (Buffer post tools unavailable) |
 | 2026-11-22 | 19:00 | Your thank-you page is the most ignored page | NOT SCHEDULED (Buffer post tools unavailable) |
+| 2026-11-23 | 19:00 | Use your customers' own words on your website | NOT SCHEDULED (Buffer post tools unavailable) |
