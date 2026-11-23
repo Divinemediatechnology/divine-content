@@ -44,3 +44,4 @@
 - 2026-11-15: text post written but NOT scheduled; Buffer, n8n and Telegram connectors unavailable in the run (video paused).
 - 2026-11-16: text post written but NOT scheduled; Buffer, n8n and Telegram connectors unavailable in the run (video paused).
 - 2026-11-21 (run for 2026-11-22): video paused. Buffer post tools (list_posts/create_post) were not available in the session, so the 19:00 text post (`content/text-posts/2026-11-22.md`) is written but NOT scheduled.
+- 2026-11-23 (run for 2026-11-24): video paused. Buffer post tools (list_posts/create_post) were not available in the session, so the 19:00 text post (`content/text-posts/2026-11-24.md`) is written but NOT scheduled.
