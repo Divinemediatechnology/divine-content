@@ -42,3 +42,4 @@
 | 2026-11-22 | 19:00 | Your thank-you page is the most ignored page | NOT SCHEDULED (Buffer post tools unavailable) |
 | 2026-11-23 | 19:00 | Use your customers' own words on your website | NOT SCHEDULED (Buffer post tools unavailable) |
 | 2026-11-24 | 19:00 | Give a campaign a fair test before you judge it | NOT SCHEDULED (Buffer post tools unavailable) |
+| 2026-11-25 | 19:00 | Fewer channels done properly beats everywhere | NOT SCHEDULED (Buffer post tools unavailable) |

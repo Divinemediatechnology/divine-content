@@ -45,3 +45,4 @@
 - 2026-11-16: text post written but NOT scheduled; Buffer, n8n and Telegram connectors unavailable in the run (video paused).
 - 2026-11-21 (run for 2026-11-22): video paused. Buffer post tools (list_posts/create_post) were not available in the session, so the 19:00 text post (`content/text-posts/2026-11-22.md`) is written but NOT scheduled.
 - 2026-11-23 (run for 2026-11-24): video paused. Buffer post tools (list_posts/create_post) were not available in the session, so the 19:00 text post (`content/text-posts/2026-11-24.md`) is written but NOT scheduled.
+- 2026-11-24 (run for 2026-11-25): video paused per ROUTINE.md. Text post `content/text-posts/2026-11-25.md` written but NOT scheduled: Buffer list_posts/create_post tools were not available this session (only tag tools). Schedule for 2026-11-25 19:00 IST on LinkedIn profile 6ac885146a5c39ccb65d971c.
