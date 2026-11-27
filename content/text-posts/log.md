@@ -45,3 +45,4 @@
 | 2026-11-25 | 19:00 | Fewer channels done properly beats everywhere | NOT SCHEDULED (Buffer post tools unavailable) |
 | 2026-11-26 | 19:00 | Your About page should answer 'is this person safe to hire' | NOT SCHEDULED (Buffer post tools unavailable) |
 | 2026-11-27 | 19:00 | Know what it costs to win one customer | NOT SCHEDULED (Buffer post tools unavailable) |
+| 2026-11-28 | 19:00 | Keep your business details the same everywhere online | NOT SCHEDULED (Buffer post tools unavailable) |
